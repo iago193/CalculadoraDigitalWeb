@@ -13,30 +13,32 @@
                     <input type="text" id="display" disabled placeholder="0">
                 </div>
                 <div class="buttons">
-                    <button onclick="calcular('c', '')">C</button>
-                    <button onclick="calcular('(', '')">(</button>
-                    <button onclick="calcular(')', '')">)</button>
-                    <button onclick="calcular('/', '')">/</button>
+                    <button onclick="calcular('c', 'acao')">C</button>
+                    <button onclick="calcular('(', 'num')">(</button>
+                    <button onclick="calcular(')', 'num')">)</button>
+                    <button onclick="calcular('/', 'acao')">/</button>
 
-                    <button onclick="calcular('7', '')">7</button>
-                    <button onclick="calcular('8', '')">8</button>
-                    <button onclick="calcular('9', '')">9</button>
-                    <button onclick="calcular('*', '')">*</button>
+                    <button onclick="calcular('7', 'num')">7</button>
+                    <button onclick="calcular('8', 'num')">8</button>
+                    <button onclick="calcular('9', 'num')">9</button>
+                    <button onclick="calcular('*', 'acao')">*</button>
 
-                    <button onclick="calcular('4', '')">4</button>
-                    <button onclick="calcular('5', '')">5</button>
-                    <button onclick="calcular('6', '')">6</button>
-                    <button onclick="calcular('+', '')">+</button>
+                    <button onclick="calcular('4', 'num')">4</button>
+                    <button onclick="calcular('5', 'num')">5</button>
+                    <button onclick="calcular('6', 'num')">6</button>
+                    <button onclick="calcular('+', 'acao')">+</button>
 
-                    <button onclick="calcular('1', '')">1</button>
-                    <button onclick="calcular('2', '')">2</button>
-                    <button onclick="calcular('3', '')">3</button>
-                    <button onclick="calcular('-', '')">-</button>
+                    <button onclick="calcular('1', 'num')">1</button>
+                    <button onclick="calcular('2', 'num')">2</button>
+                    <button onclick="calcular('3', 'num')">3</button>
+                    <button onclick="calcular('-', 'acao')">-</button>
 
-                    <button onclick="calcular('.', '')">.</button>
-                    <button onclick="calcular('0', '')">0</button>
-                    <button onclick="calcular('<<', '')"> << </button>
-                    <button onclick="calcular('=', '')">=</button>
+                    <button onclick="calcular('.', 'num')">.</button>
+                    <button onclick="calcular('0', 'num')">0</button>
+                    <button onclick="calcular('<', 'acao')"> < </button>
+                    <div class="resultado">
+                        <button onclick="calcular('=', 'acao')">=</button>
+                    </div>
                 </div>
         </section>
 
